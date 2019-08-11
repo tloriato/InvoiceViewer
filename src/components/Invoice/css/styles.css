@@ -1,0 +1,179 @@
+body, html {
+  height: 100%;
+}
+#header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 12%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  display: -webkit-inline-box;
+}
+#logo {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+}
+#title {
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+}
+#stats {
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: green;
+}
+#row1 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 33%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: aqua;
+}
+#row2 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 33%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: blueviolet;
+}
+#row3 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 33%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gold;
+}
+#prestador {
+  box-sizing: border-box;
+  width: 100%;
+  height: 15%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: indigo;
+  display: -webkit-inline-box;
+}
+#tomador {
+  box-sizing: border-box;
+  width: 100%;
+  height: 12%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: orange;
+  display: -webkit-inline-box;
+}
+#discriminacao {
+  box-sizing: border-box;
+  width: 100%;
+  height: 30%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: orchid;
+  display: -webkit-inline-box;
+}
+#valor {
+  box-sizing: border-box;
+  width: 100%;
+  height: 6%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rosybrown;
+  display: -webkit-inline-box;
+}
+#servico {
+  box-sizing: border-box;
+  width: 100%;
+  height: 6%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  display: -webkit-inline-box;
+}
+#valores {
+  box-sizing: border-box;
+  width: 100%;
+  height: 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: lawngreen;
+  display: inline-block;
+  text-align: center;
+}
+#info {
+  box-sizing: border-box;
+  width: 100%;
+  height: 14%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightcoral;
+  display: -webkit-inline-box;
+}
+
+#deducoes {
+  box-sizing: border-box;
+  height: 100%;
+  width: 16%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: orange;
+  display: -webkit-inline-box;
+}
+#descontonincond {
+  box-sizing: border-box;
+  height: 100%;
+  width: 16%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: indianred;
+  display: -webkit-inline-box;
+}
+#basedecalculo {
+  box-sizing: border-box;
+  height: 100%;
+  width: 16%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: aquamarine;
+  display: -webkit-inline-box;
+}
+#aliquota {
+  box-sizing: border-box;
+  height: 100%;
+  width: 16%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  display: -webkit-inline-box;
+}
+#valordoiss {
+  box-sizing: border-box;
+  height: 100%;
+  width: 16%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: navajowhite;
+  display: -webkit-inline-box;
+}
+#creditogerado {
+  box-sizing: border-box;
+  height: 100%;
+  width: 16%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  display: -webkit-inline-box;
+}
