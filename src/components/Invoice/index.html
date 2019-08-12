@@ -15,42 +15,71 @@
 <body>
   <div id="header">
     <div id="logo">
-      X
+      <img src='./image.png' id="image">
     </div>
     <div id="title">
-      PREFEITURA DA CIDADE DO RIO DE JANEIRO
+      <p id="nomeMunicipio">PREFEITURA DA CIDADE DO RIO DE JANEIRO</p>
+      <p id="secretariaMunicipal">SECRETARIA MUNICIPAL DA FAZENDA</p>
+      <p id="notaFiscalDeServico">NOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFS-e</p>
     </div>
     <div id="stats">
       <div id="row1">
-        a
+        <p id="statsText">Número da Nota</p>
+        <p id="statsBox">1565564816335</p>
       </div>
       <div id="row2">
-        b
+        <p id="statsText">Data e Hora da Emissão</p>
+        <p id="statsBox">10/04/2013 18:34:58</p>
       </div>
       <div id="row3">
-        d
+        <p id="statsText">Código da Transação</p>
+        <p id="TxID">54d4e298063f888a651c6f931bdbaf0ddecec8a9718a52c78cafbda2d81ab581</p>
       </div>
     </div>
   </div>
   <div id="prestador">
+    <p id="tituloPrestador">PRESTADOR DE SERVIÇOS</p>
+    <div id=infoPrestador>
+
+    </div>
   </div>
   <div id="tomador">
+    <p id="tituloTomador">TOMADOR DE SERVIÇOS</p>
+    <div id="infoTomador"></div>
   </div>
   <div id="discriminacao">
+      <p id="discriminacaoTitulo">DISCRIMINAÇÃO DOS SERVIÇOS</p>
+      <div id="infoDiscriminacao"></div>
   </div>
   <div id="valor">
+    <p id="valorText">VALOR DA NOTA = </p>
   </div>
   <div id="servico">
+    <p id="valTitle">Serviço Prestado</p>
+    <p id="servicoPrestado"></p>
   </div>
   <div id="valores">
-    <div id="deducoes"></div>
-    <div id="descontonincond"></div>
-    <div id="basedecalculo"></div>
-    <div id="aliquota"></div>
-    <div id="valordoiss"></div>
-    <div id="creditogerado"></div>
+    <div id="valBox">
+      <p id="valTitle">Deduções (R$)</p>
+    </div>
+    <div id="valBox">
+        <p id="valTitle">Desconto Incond. (R$)</p>
+    </div>
+    <div id="valBox">
+        <p id="valTitle">Base de Cálculo (R$)</p>
+    </div>
+    <div id="valBox">
+        <p id="valTitle">Alíquota (%)</p>
+    </div>
+    <div id="valBox">
+        <p id="valTitle">Valor do ISS (R$)</p>
+    </div>
+    <div id="valBox">
+        <p id="valTitle">Crédito Gerado (R$)</p>
+    </div>
   </div>
   <div id="info">
+    <p id="infoTitulo">OUTRAS INFORMAÇÕES</p>
   </div>
 </body>
 </html>

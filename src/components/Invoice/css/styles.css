@@ -1,179 +1,211 @@
-body, html {
-  height: 100%;
-}
-#header {
-  box-sizing: border-box;
-  width: 100%;
-  height: 12%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
-  display: -webkit-inline-box;
-}
-#logo {
-  box-sizing: border-box;
-  width: 20%;
-  height: 100%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;
-}
-#title {
-  box-sizing: border-box;
-  width: 50%;
-  height: 100%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: blue;
-}
-#stats {
-  box-sizing: border-box;
-  width: 30%;
-  height: 100%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: green;
-}
-#row1 {
-  box-sizing: border-box;
-  width: 100%;
-  height: 33%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: aqua;
-}
-#row2 {
-  box-sizing: border-box;
-  width: 100%;
-  height: 33%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: blueviolet;
-}
-#row3 {
-  box-sizing: border-box;
-  width: 100%;
-  height: 33%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: gold;
-}
-#prestador {
-  box-sizing: border-box;
-  width: 100%;
-  height: 15%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: indigo;
-  display: -webkit-inline-box;
-}
-#tomador {
-  box-sizing: border-box;
-  width: 100%;
-  height: 12%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: orange;
-  display: -webkit-inline-box;
-}
-#discriminacao {
-  box-sizing: border-box;
-  width: 100%;
-  height: 30%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: orchid;
-  display: -webkit-inline-box;
-}
-#valor {
-  box-sizing: border-box;
-  width: 100%;
-  height: 6%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: rosybrown;
-  display: -webkit-inline-box;
-}
-#servico {
-  box-sizing: border-box;
-  width: 100%;
-  height: 6%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;
-  display: -webkit-inline-box;
-}
-#valores {
-  box-sizing: border-box;
-  width: 100%;
-  height: 5%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: lawngreen;
-  display: inline-block;
-  text-align: center;
-}
-#info {
-  box-sizing: border-box;
-  width: 100%;
-  height: 14%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: lightcoral;
-  display: -webkit-inline-box;
-}
-
-#deducoes {
-  box-sizing: border-box;
-  height: 100%;
-  width: 16%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: orange;
-  display: -webkit-inline-box;
-}
-#descontonincond {
-  box-sizing: border-box;
-  height: 100%;
-  width: 16%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: indianred;
-  display: -webkit-inline-box;
-}
-#basedecalculo {
-  box-sizing: border-box;
-  height: 100%;
-  width: 16%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: aquamarine;
-  display: -webkit-inline-box;
-}
-#aliquota {
-  box-sizing: border-box;
-  height: 100%;
-  width: 16%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: blue;
-  display: -webkit-inline-box;
-}
-#valordoiss {
-  box-sizing: border-box;
-  height: 100%;
-  width: 16%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: navajowhite;
-  display: -webkit-inline-box;
-}
-#creditogerado {
-  box-sizing: border-box;
-  height: 100%;
-  width: 16%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: cornflowerblue;
-  display: -webkit-inline-box;
-}
+body,html {
+  height:100%;
+  }
+  
+  p {
+  font-family:sans-serif;
+  }
+  
+  #header {
+  box-sizing:border-box;
+  width:100%;
+  height:12%;
+  border-width:2px;
+  border-style:solid;
+  border-color:#000;
+  display:-webkit-inline-box;
+  }
+  
+  #logo {
+  box-sizing:border-box;
+  width:20%;
+  height:100%;
+  }
+  
+  #image {
+  max-width:85%;
+  max-height:85%;
+  position:relative;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  }
+  
+  #title {
+  box-sizing:border-box;
+  width:50%;
+  height:100%;
+  }
+  
+  #nomeMunicipio {
+  font-size:larger;
+  font-weight:700;
+  text-align:center;
+  }
+  
+  #secretariaMunicipal {
+  text-align:center;
+  font-weight:bold;
+  }
+  
+  #notaFiscalDeServico {
+  margin-top:7%;
+  text-align:center;
+  font-weight:600;
+  }
+  
+  #stats {
+  box-sizing:border-box;
+  width:30%;
+  height:100%;
+  border-left:1px solid #000;
+  }
+  
+  #row3 {
+  box-sizing:border-box;
+  width:100%;
+  height:39%;
+  }
+  
+  #TxID {
+  max-width:100%;
+  font-weight:bolder;
+  text-align:center;
+  max-height:100%;
+  margin:auto;
+  word-wrap:break-word;
+  font-size:x-small;
+  }
+  
+  #prestador {
+  box-sizing:border-box;
+  width:100%;
+  height:15%;
+  border-bottom:2px solid #000;
+  border-left:2px solid #000;
+  border-right:2px solid #000;
+  display:-webkit-inline-box;
+  }
+  
+  #tomador {
+  box-sizing:border-box;
+  width:100%;
+  height:12%;
+  border-bottom:2px solid #000;
+  border-left:2px solid #000;
+  border-right:2px solid #000;
+  display:-webkit-inline-box;
+  }
+  
+  #discriminacao {
+  box-sizing:border-box;
+  width:100%;
+  height:30%;
+  border-bottom:1px solid #000;
+  border-left:2px solid #000;
+  border-right:2px solid #000;
+  display:-webkit-inline-box;
+  }
+  
+  #valor {
+  box-sizing:border-box;
+  width:100%;
+  height:3%;
+  border-bottom:1px solid #000;
+  border-left:2px solid #000;
+  border-right:2px solid #000;
+  display:-webkit-inline-box;
+  }
+  
+  #valorText {
+  font-size:large;
+  font-weight:600;
+  text-align:center;
+  margin:auto;
+  margin-top:3px;
+  line-height:30px;
+  }
+  
+  #servico {
+  box-sizing:border-box;
+  width:100%;
+  height:4%;
+  border-bottom:1px solid #000;
+  border-left:2px solid #000;
+  border-right:2px solid #000;
+  display:-webkit-inline-box;
+  }
+  
+  #valores {
+  box-sizing:border-box;
+  width:100%;
+  height:4%;
+  border-bottom:1px solid #000;
+  border-left:2px solid #000;
+  border-right:2px solid #000;
+  display:inline-flex;
+  text-align:left;
+  }
+  
+  #info {
+  box-sizing:border-box;
+  width:100%;
+  height:14%;
+  border-bottom:2px solid #000;
+  border-left:2px solid #000;
+  border-right:2px solid #000;
+  display:-webkit-inline-box;
+  }
+  
+  #creditogerado {
+  box-sizing:border-box;
+  height:100%;
+  width:17%;
+  border-right:0 solid #000;
+  display:-webkit-inline-box;
+  }
+  
+  #row1,#row2 {
+  box-sizing:border-box;
+  width:100%;
+  height:30%;
+  border-bottom:1px solid #000;
+  }
+  
+  #statsText {
+  margin-top:5px;
+  margin-left:3px;
+  font-size:smaller;
+  margin-bottom:1%;
+  }
+  
+  #statsBox {
+  max-width:100%;
+  font-weight:bolder;
+  text-align:center;
+  max-height:100%;
+  margin:auto;
+  }
+  
+  #tituloPrestador,#tituloTomador,#discriminacaoTitulo,#infoTitulo {
+  font-size:large;
+  font-weight:600;
+  text-align:center;
+  margin:auto;
+  margin-top:4px;
+  }
+  
+  #valTitle {
+  margin-top:5px;
+  margin-left:3px;
+  font-size:11px;
+  margin-bottom:1%;
+  }
+  
+  #valBox {
+  box-sizing:border-box;
+  height:100%;
+  width:17%;
+  border-right:1px solid #000;
+  display:-webkit-inline-box;
+  }
